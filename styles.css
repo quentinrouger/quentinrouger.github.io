@@ -1,0 +1,604 @@
+header {
+  width: 1103.02px;
+  height: 29.46px;
+  top: 35.02px;
+  left: 171.59px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 702px;
+  position: absolute;
+}
+
+.nav_bar {
+  width: 300px;
+  font-size: 12px;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  font-weight: 700;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+body {
+  width: 1440px;
+  position: relative;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: var(--main-color);
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: auto;
+}
+
+.main_part {
+  width: 1440px;
+  height: 1093px;
+  flex-shrink: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  background-image: url("/assets/background.png");
+}
+
+.slogan {
+  position: absolute;
+  width: 240px;
+  height: 20px;
+  top: 350px;
+  left: 600px;
+  font-size: 16px;
+  font-family: Source Sans Pro, sans-serif;
+  font-weight: 700;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.main_part h1 {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 120px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: absolute;
+  width: 770px;
+  height: 151px;
+  top: 120px;
+  left: 335px;
+
+}
+
+.main_part h2 {
+  width: 290px;
+  height: 40px;
+  top: 620px;
+  left: 580px;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  position: absolute;
+}
+
+.violet_title {
+  color: #C271FF;
+  font-weight: 700;
+}
+
+.main_part p {
+  color: #FFFFFF;
+  text-align: center;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+button {
+  width: 162px;
+  height: 44px;
+  top: 419px;
+  left: 639px;
+  flex-shrink: 0;
+  border-radius: 22px;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 14px;
+  background: #C271FF;
+  color: #FFFFFF;
+  position: absolute;
+  box-shadow: 0px 2px 20px 0px #00000080;
+  border: none;
+}
+
+.pros {
+  width: 1103.02px;
+  height: 330px;
+  top: 750px;
+  left: 171.59px;
+  font-size: 18px;
+  font-weight: 900;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  color: #FFFFFF;
+}
+
+.pros p {
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+/* ------------------------- testimonials styling ----------------------------- */
+.testimonials {
+  width: 1440px;
+  height: 392px;
+  top: 1093px;
+  left: -1px;
+  background-color: #C271FF;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote_image {
+  width: 150px;
+  height: 150px;
+  top: 120px;
+  left: 225px;
+  flex-shrink: 0;
+  position: absolute;
+}
+
+.testimonials_quote {
+  width: 850px;
+  top: 100px;
+  left: 410px;
+  position: absolute;
+  color: #FFFFFF;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  display: inline-flex;
+  justify-content: center;
+  text-align: left;
+}
+
+.author_name {
+  width: 150px;
+  height: 40px;
+  top: 80px;
+  left: 40px;
+  font-size: 22px;
+  font-weight: 700;
+  display: flex;
+  position: absolute;
+}
+
+.author_job {
+  width: 180px;
+  height: 40px;
+  top: 115px;
+  left: 40px;
+  font-size: 22px;
+  font-weight: 400;
+  font-style: italic;
+  display: flex;
+  position: absolute;
+}
+
+/* ------------------------- tutorials styling ---------------------------- */
+
+.tutorials {
+  width: 1228px;
+  height: 450px;
+  top: 1572px;
+  left: 106px;
+  color: #FFFFFF;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tutorials h1 {
+  top: -27px;
+  color: #071629;
+  text-align: center;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  line-height: normal;
+  font-weight: 300;
+  position: absolute;
+}
+
+.tutorial_box1 {
+  width: 255px;
+  height: 335px;
+  top: 115px;
+  left: 58px;
+  flex-shrink: 0;
+  background-color: #FFFFFF;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0px 1px 0px 0px rgba(7, 22, 41, 0.18);
+}
+
+.tutorial_box2 {
+  width: 255px;
+  height: 335px;
+  top: 115px;
+  left: 344px;
+  flex-shrink: 0;
+  background-color: #FFFFFF;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0px 1px 0px 0px rgba(7, 22, 41, 0.18);
+}
+
+.tutorial_box3 {
+  width: 255px;
+  height: 335px;
+  top: 115px;
+  left: 629px;
+  flex-shrink: 0;
+  background-color: #FFFFFF;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0px 1px 0px 0px rgba(7, 22, 41, 0.18);
+}
+
+.tutorial_box4 {
+  width: 255px;
+  height: 335px;
+  top: 115px;
+  left: 914px;
+  flex-shrink: 0;
+  background-color: #FFFFFF;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0px 1px 0px 0px rgba(7, 22, 41, 0.18);
+}
+
+.tutorial_preview {
+  width: 255px;
+  height: 154px;
+  position: absolute;
+  top: 0px;
+}
+
+.play_button {
+  width: 64px;
+  height: 64px;
+  top: 45px;
+  left: 96px;
+  position: absolute;
+}
+
+.tutorials h2 {
+  width: 106px;
+  height: 20px;
+  top: 155px;
+  left: 13px;
+  color: #071629;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: absolute;
+}
+
+.tutorials h3 {
+  width: 86px;
+  height: 27px;
+  top: 250px;
+  left: 56px;
+  color: #C271FF;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27px;
+  position: absolute;
+}
+
+.tutorials p {
+  width: 242px;
+  height: 20px;
+  top: 183px;
+  left: 13px;
+  color: rgba(7, 22, 41, 0.50);
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; 
+  text-align: left;
+  position: absolute;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  top: 261px;
+  left: 13px;
+  position: absolute;
+}
+
+.stars {
+  width: 197px;
+  height: 15px;
+  top: 305px;
+  left: 13px;
+  position: absolute;
+}
+
+.stars p {
+  width: 34px;
+  height: 27px;
+  top: -18px;
+  left: 190px;
+  color: #C271FF;
+  text-align: right;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27px;
+  position: absolute;
+}
+
+/* ------------------------ free_memebership styling ------------------------- */
+
+.free_membership {
+  width: 1440px;
+  height: 502px;
+  top: 2109px;
+  background-color: #071629;
+  position: absolute;
+  display: flex;
+}
+
+.free_membership h1 {
+  width: 250px;
+  height: 40px;
+  top: 60px;
+  left: 617px;
+  color: #FFF;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  position: absolute;
+}
+
+.dot_1 {
+  width: 257px;
+  height: 153px;
+  top: 168px;
+  left: 164px;
+  color: #FFF;
+  position: absolute;
+  text-align: center;
+}
+
+.dot_2 {
+  width: 257px;
+  height: 153px;
+  top: 168px;
+  left: 448px;
+  color: #FFF;
+  position: absolute;
+  text-align: center;
+}
+
+.dot_3 {
+  width: 257px;
+  height: 153px;
+  top: 168px;
+  left: 733px;
+  color: #FFF;
+  position: absolute;
+  text-align: center;
+}
+
+.dot_4 {
+  width: 257px;
+  height: 153px;
+  top: 168px;
+  left: 1019px;
+  color: #FFF;
+  position: absolute;
+  text-align: center;
+}
+
+.free_membership h2 {
+  color: #FFF;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+}
+
+.free_membership p {
+  width: 212px;
+  left: 22px;
+  color: #FFF;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  position: relative;
+}
+
+/* ----------------------- faq styling ----------------------- */
+
+.faq {
+  width: 920px;
+  height: 707px;
+  top: 2678px;
+  left: 249px;
+  background-color: #FFFFFF;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.faq h1 {
+  width: 136px;
+  height: 50px;
+  left: 407px;
+  margin: 0px;
+  top: 0px;
+  color: #071629;
+  text-align: center;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 60px;
+  font-weight: 300;
+  position: absolute;
+}
+
+.faq h2 {
+  width: 170px;
+  height: 20px;
+  top: 0px;
+  color: #071629;
+  text-align: center;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+}
+
+.faq p {
+  width: 350px;
+  height: 192px;
+  top: 50px;
+  left: 12px;
+  color: rgba(7, 22, 41, 0.50);
+  text-align: left;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  position: absolute;
+}
+
+.Q_1 {
+  width: 350px;
+  height: 242px;
+  top: 149px;
+  left: 0px;
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.Q_2 {
+  width: 350px;
+  height: 242px;
+  top: 465px;
+  left: 0px;
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.Q_3 {
+  width: 350px;
+  height: 242px;
+  top: 149px;
+  left: 570px;
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.Q_4 {
+  width: 350px;
+  height: 242px;
+  top: 465px;
+  left: 570px;
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+/* ---------------- footer styling ---------------------- */
+
+footer {
+  width: 1440px;
+  height: 249px;
+  top: 3469px;
+  background-color: #071629;
+  position: absolute;
+}
+
+.logo_footer {
+  width: 169px;
+  height: 30px;
+  top: 95px;
+  left:165px;
+  position: absolute;
+}
+
+footer a {
+  width: 130px;
+  height: 30px;
+  top: 90px;
+  left: 1070px;
+  position: absolute;
+}
+
+footer p{
+  width: 100px;
+  height: 15px;
+  top: 195px;
+  left: 672px;
+  color: #FFF;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  opacity: 0.3517;
+  position: absolute;
+}
